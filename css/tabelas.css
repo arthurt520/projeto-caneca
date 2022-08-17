@@ -1,0 +1,38 @@
+table, th, tr, td{
+    border:3px solid #9370DB;
+    margin:auto;
+    border-radius: 5px;
+}
+
+section{
+    padding:30px;
+}
+
+th,tr,td{
+    padding:15px;
+}
+
+thead{
+    background-color: #ab92db;
+}
+
+@media (max-width:480px){
+
+    section{
+        padding:25px;
+        height:50vh;
+    }
+    th,tr,td{
+        padding:5px;
+    }
+ }
+
+ @media (min-width:768px) and (max-width:1024px){
+
+    section{
+        padding:50px;
+    }
+    th,tr,td{
+        padding:10px;
+    }
+ }

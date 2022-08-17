@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Righteous&family=Roboto&family=Sarala:wght@400;700&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family:'Lato', sans-serif;
+}
+
+header{
+    border-bottom:2px solid #9370DB;
+    padding:10px;
+    margin: auto;
+    margin-bottom:10px;
+    width: 90%;
+
+}
+
+header h1{
+    font-family:'Lato', sans-serif;
+    color:#9370DB;
+    display: inline;
+}
+
+ul{
+    margin-left:50%;
+}
+
+nav ul li{
+    display: inline;
+    padding:5px;
+    border:1px solid #E6E6FA;
+    background-color:#E6E6FA;
+    border-radius:5px;
+
+}
+
+li a{
+    color:#9370DB;
+}
+
+section{
+    background-color:#F3DAF2;
+    padding:80px;
+}
+.parte1{
+    display: block;
+    margin: auto;
+}
+.introducao {
+    line-height:50px;
+    float: left;
+    margin-right:25px;
+    padding: 25px;
+    border-bottom:2px solid #9370DB;
+}
+.foto-das-canecas img{
+    width:45%;
+    float: left;
+    border-radius: 10px;
+}
+
+.foto-das-canecas2 img{
+    display: block;
+    margin:auto;
+    padding: 10px;
+    border-radius: 50px;
+    }
+.foto-das-canecas2 blockquote{
+    margin: auto;
+    border-left:1px solid brown;
+    padding: 10px;
+    width: 50%;
+}
+
+section::after{
+        content: "";
+        display: table;
+        clear: both;
+
+}
+
+footer{
+ text-align: center;
+ padding:30px;
+}
+
+footer p{
+    font-family:'Lato', sans-serif;
+    margin-bottom: 5px;
+    color:#9370DB;
+}
+
+footer a img{
+    margin-left:10px;
+}
+
+@media (max-width:480px){
+    header{
+        width:100%;
+        text-align: center; 
+
+    }
+
+    header img{
+        display: none;
+    }
+
+    header h1{
+        font-size:18px;
+    }
+
+
+    nav ul{
+        text-align: center;
+        margin:auto;
+        margin-top:20px;
+    }
+
+    nav ul li{
+        margin:auto;
+        margin-bottom:10px;
+        display: block;
+        width:150px;
+    }
+
+    section{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .introducao{
+        line-height:30px;
+    }
+    .foto-das-canecas img{
+        width:90%;
+    }
+
+    .foto-das-canecas2 img{
+        width:50%;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+
+    header{
+        text-align: center;
+    }
+
+
+    nav ul{
+        margin-right:5%;
+        margin-left:5%;
+        margin-top:5%;
+        margin-bottom: 5%;
+    }
+
+    nav ul li{
+        font-size:20px;
+        margin:5px;
+        padding:6px;
+    }
+
+    section{
+        padding:15px;
+        font-size:22px;
+        text-align: center;
+    }
+
+    .introducao{
+        font-size:22px;
+        
+    }
+    .foto-das-canecas img{
+        width:90%;
+        margin-left:30px;
+    }
+
+    .foto-das-canecas2 img{
+        width:90%;
+    }
+
+}

@@ -1,0 +1,45 @@
+
+section h2,p{
+    margin-bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+}
+
+.part-img{
+    text-align: center;
+    padding: 30px;
+}
+
+.img-1, .img-3{
+    margin-right:10%;
+    border:2px solid #9370DB;
+}
+
+.img-2, .img-4{
+    border:2px solid #9370DB;
+}
+
+@media(max-width:480px){
+    .img-1,.img-2,.img-3,.img-4{
+        width:70%;
+        margin-right:0;
+        margin-bottom: 10px;
+    }
+
+    .part-img{
+        padding: 0;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px){
+    .img-1,.img-2,.img-3,.img-4{
+        width:50%;
+        margin-right:0;
+        margin-bottom: 10px;
+    }
+
+    .part-img{
+        padding: 0;
+    }
+
+ }
